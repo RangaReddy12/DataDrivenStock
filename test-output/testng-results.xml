@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::4  No ofcells in firtsrow::10]]>
+    </line>
+    <line>
+      <![CDATA[No of rows are::4  No ofcells in firtsrow::10]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-28T19:55:56 IST" name="Default suite" finished-at="2022-12-28T19:57:29 IST" duration-ms="93141">
+    <groups>
+    </groups>
+    <test started-at="2022-12-28T19:55:56 IST" name="Default test" finished-at="2022-12-28T19:57:29 IST" duration-ms="93141">
+      <class name="DriverFactory.DataDrivenScript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DriverFactory.DataDrivenScript@79e4c792]" started-at="2022-12-28T19:55:56 IST" name="setUp" finished-at="2022-12-28T19:56:08 IST" duration-ms="11829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer()[pri:0, instance:DriverFactory.DataDrivenScript@79e4c792]" started-at="2022-12-28T19:56:08 IST" name="addCustomer" finished-at="2022-12-28T19:56:50 IST" duration-ms="42609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::4  No ofcells in firtsrow::10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addSupplier()[pri:0, instance:DriverFactory.DataDrivenScript@79e4c792]" started-at="2022-12-28T19:56:50 IST" name="addSupplier" finished-at="2022-12-28T19:57:28 IST" duration-ms="37578" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::4  No ofcells in firtsrow::10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSupplier -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DriverFactory.DataDrivenScript@79e4c792]" started-at="2022-12-28T19:57:28 IST" name="tearDown" finished-at="2022-12-28T19:57:29 IST" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverFactory.DataDrivenScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
